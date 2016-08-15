@@ -179,7 +179,16 @@ function checkAnimation(anchorLink) {
 		if ($elem.hasClass('start')) return;
 		$elem.addClass('start');
 	}
+	else if (anchorLink == 'goodwordpage')
+	{
+		var $elem = $('#goodword-1');
+		if ($elem.hasClass('start')) return;
+		$elem.addClass('start');
 		
+		var $elem = $('#goodword-2');
+		if ($elem.hasClass('start')) return;
+		$elem.addClass('start');
+	}	
 
 }
 function changeNav(nextIndex)
