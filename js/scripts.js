@@ -3,7 +3,7 @@ $(document).ready(function()
 	// var anchors = ['homepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'skillspage','careerpage', 'freelancingpage', 'contactmepage'];
 	$('#fullpage').fullpage({
 					// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-					anchors: ['homepage', 'aboutmepage', 'schoolpage', 'learningpage', 'moonpage	', 'skillspage','careerpage', 'freelancingpage', 'contactmepage'],
+					anchors: ['homepage', 'aboutmepage', 'schoolpage', 'learningpage', 'moonpage	', 'skillspage','careerpage','goodwordpage','freelancingpage', 'contactmepage'],
 					menu: '#menu',
 					onLeave: function(index, nextIndex, direction){
 						var leavingSection = $(this);

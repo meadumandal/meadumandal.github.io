@@ -186,6 +186,10 @@
 	{
 	    margin-top:25px;
 	}
+    #goodword>div:first-child
+    {
+        margin-top:50px;
+    }
 	.buttons
 	{
 	    visibility:hidden;
@@ -194,5 +198,28 @@
 	{
 	    display:none;
 	}
+    #goodword>div:first-child
+    {
+        height: calc(18% - 50px);
+    }
+    #goodword>div:nth-child(2), #goodword div:nth-child(3)
+    {
+        height:40%;
+    }
+    #goodword p.remarks
+    {
+        font-size:13px;
+    }
+    #goodword p.position
+    {
+        font-size:10px;
+    }
+    #goodword .avatar
+    {
+    /*    width:70px;
+        height:auto;
+        border-radius:50%;*/
+        display:none;
+    }
 
 }

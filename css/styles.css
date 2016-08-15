@@ -717,9 +717,25 @@
 	{
 		padding-top:80px;
 	}
-	#school div:first-child, #work
+	#school>div:first-child, #work, #goodword>div:first-child
 	{
 		margin-top:80px;
+	}
+	#goodword>div:first-child
+	{
+		height:20%
+	}
+	#goodword div.columns
+	{
+		height:calc(80% - 80px);
+	}
+	#goodword p.remarks
+	{
+		font-size:20px;
+	}
+	#goodword p.position
+	{
+		font-size:15px;
 	}
 	.fp-controlArrow.fp-prev{
 		border-color:transparent rgba(0,0,0,0.5) transparent transparent!important;
@@ -727,6 +743,12 @@
 	.fp-controlArrow.fp-next{
 		border-color:transparent transparent transparent rgba(0,0,0,0.5)!important;	
 	}
-	
+	#goodword .avatar
+	{
+		width:110px;
+		height:auto;
+		border-radius:50%;
+
+	}
 
 /*}*/
