@@ -83,24 +83,78 @@
 		    <div class="modal-dialog">
 		    
 		      <!-- Modal content-->
-		      <form id = "frmMsg" method= "post" action = "http://www.meadumandal.com/send.php" style = "height:100%;">
+		      <!-- <form id = "frmMsg" method= "post" style = "height:100%;"> -->
 			      <div class="modal-content">
 			        <div class="modal-header">
 			          <button type="button" class="close" data-dismiss="modal">&times;</button>
 			          <h4 class="modal-title"> Send me a message and I will reply promptly. </h4>
 			        </div>
-
-			        <div class="modal-body">  	
-		        		<input id = "msg-subject" name = "msg-subject" class= "form-control" type = "text" placeholder="Subject" required></br>
-		        		<input id = "msg-email" name="msg-email" class= "form-control" type = "text" placeholder="Your e-mail" required></br>
-		        		<textarea rows="4" cols="50" class="form-control" placeholder="Message" required></textarea>
+			        <div class="modal-body">
+				        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfCGLB0v8OC1KDvWsYfu7NQRQfdT0Afgg9X33TOk8qncHiFzw/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+				        	<ol role="list" class="ss-question-list" style="padding-left: 0;">
+				        		<div class="ss-form-question errorbox-good" role="listitem">
+				        			<div dir="auto" class="ss-item ss-item-required ss-text">
+				        				<div class="ss-form-entry">
+					        				<label class="ss-q-item-label" for="entry_17602841">
+					        					<div class="ss-q-title">Your E-mail Address
+						        					<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+						        					<span class="ss-required-asterisk" aria-hidden="true">*</span>
+					        					</div>
+					        					<div class="ss-q-help ss-secondary-text" dir="auto">
+					        					</div>
+					        				</label>
+											<input type = "email" class = "form-control" type="text" name="entry.17602841" value="" class="ss-q-short" id="entry_17602841" dir="auto" aria-label="Your E-mail Address  " aria-required="true" required="" title="">
+											<div class="error-message" id="146779580_errorMessage"></div>
+											<!-- <div class="required-message">This is a required question</div> -->
+										</div>
+									</div>
+								</div>
+								<div class="ss-form-question errorbox-good" role="listitem">
+									<div dir="auto" class="ss-item ss-item-required ss-paragraph-text">
+										<div class="ss-form-entry">
+											<label class="ss-q-item-label" for="entry_1183649080">
+												<div class="ss-q-title">
+													Message
+													<label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+													<span class="ss-required-asterisk" aria-hidden="true">*</span>
+												</div>
+												<div class="ss-q-help ss-secondary-text" dir="auto"></div>
+											</label>
+											<textarea class = "form-control" name="entry.1183649080" rows="8" cols="0" class="ss-q-long" id="entry_1183649080" dir="auto" aria-label="Message  " aria-required="true" required=""></textarea>
+											<div class="error-message" id="1861541892_errorMessage"></div>
+											<!-- <div class="required-message">This is a required question</div> -->
+										</div>
+									</div>
+								</div>
+								<input type="hidden" name="draftResponse" value="[,,&quot;-679103311622541546&quot;]">
+								<input type="hidden" name="pageHistory" value="0">
+								<input type="hidden" name="fbzx" value="-679103311622541546">
+								<div class="ss-item ss-navigate">
+									<table id="navigation-table">
+										<tbody>
+											<tr>
+												<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+													<!-- <input type="submit" class="btn btn-default" value = "Send" name = "msg-send" id="msg-send"/> -->
+													</br>
+													<input type="submit" name="submit" value="Send" id="ss-submit" class="jfk-button jfk-button-action btn btn-default">
+													<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													<!-- <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div> -->
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</ol>
+					          <!-- <input id = "msg-subject" name = "msg-subject" class= "form-control" type = "text" placeholder="Subject" required></br>
+					          <input id = "msg-email" name="msg-email" class= "form-control" type = "text" placeholder="Your e-mail" required></br>
+					          <textarea rows="4" cols="50" class="form-control" placeholder="Message" required></textarea> -->
 			        </div>
 			        <div class="modal-footer">
-			        	<input type="submit" class="btn btn-default" value = "Send" name = "msg-send" id="msg-send"/>
-			        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        	<!-- <input type="submit" class="btn btn-default" value = "Send" name = "msg-send" id="msg-send"/> -->
+			          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
 			        </div>
 			      </div>
-			    </form>
+			    <!-- </form> -->
 		      
 		    </div>
 		  </div>
@@ -487,7 +541,7 @@
 						
 						<div class="col-sm-12 col-md-6 col-xs-12" style="background-color:#1c1c1c;text-align:center;">
 							<h3> We can work together </h3>
-							<h5> Looking to hire? See my resume or </br> send me a message</h5>
+							<h5> Looking to hire? </br>Download my resume PDF or </br> send me a message</h5>
 
 							<div class="row buttons" id="work-together">
 								<div class="col-xs-offset-1 col-xs-5 col-sm-offset-1 col-sm-5 col-md-5"  style = "">
