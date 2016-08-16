@@ -199,6 +199,26 @@
 		-transform:translateX(300%);
 		-moz-transform:translateX(300%);
 	}
+	div.arrowdown
+	{
+		position:absolute;
+		bottom:10px;
+
+		width:100%;
+		text-align: center;
+		height:40px;
+
+		-webkit-animation:bounce 2s infinite;
+	    -o-animation:bounce 2s infinite;
+	    -moz-animation:bounce 2s infinite;
+	    animation:bounce 2s infinite;
+	    
+	}
+	div.arrowdown span
+	{
+		font-size:50px;
+		font-weight:400;
+	}
 	#learningispassion.start
 	{
 		-webkit-animation:flyfromright 0.2s linear forwards;
@@ -241,6 +261,51 @@
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
 	    animation-delay:0.8s;
+	}
+	@keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {
+	    transform:translateY(0);
+	  }
+		40% {
+	    transform:translateY(-30px);
+	  }
+		60% {
+	    transform:translateY(-15px);
+	  }
+	}
+	@-webkit-keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {
+	    -webkit-transform:translateY(0);
+	  }
+		40% {
+	    -webkit-transform:translateY(-30px);
+	  }
+		60% {
+	    -webkit-transform:translateY(-15px);
+	  }
+
+	}
+	@-moz-keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {
+	    -moz-transform:translateY(0);
+	  }
+		40% {
+	    -moz-transform:translateY(-30px);
+	  }
+		60% {
+	    -moz-transform:translateY(-15px);
+	  }
+	}
+	@-o-keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {
+	    -o-transform:translateY(0);
+	  }
+		40% {
+	    -o-transform:translateY(-30px);
+	  }
+		60% {
+	    -o-transform:translateY(-15px);
+	  }
 	}
 	@keyframes flyfromright {
 		from{
@@ -774,5 +839,9 @@
 		border-radius:50%;
 
 	}
+	.freebirdHeaderMast
+	{
+		display:none!important;
+	}
 
-/*}*/
+/*}
