@@ -131,6 +131,10 @@
         text-align:center;
         
     }
+    #quotes div
+    {
+        height:50%;
+    }
     .level.second
     {
         display:none;
@@ -194,6 +198,15 @@
     {
         margin-top:50px;
     }
+    #quotes>div:nth-child(2)
+    {
+        margin-top:50px;
+
+    }
+    #quotes div
+    {
+        text-align:center;
+    }
 	.buttons
 	{
 	    visibility:hidden;
@@ -224,6 +237,18 @@
         height:auto;
         border-radius:50%;*/
         display:none;
+    }
+    #quotes-img-1
+    {
+        display:none;
+    }
+    #quotes-img-2
+    {
+        display:block;
+    }
+    #quotes-img-2 img
+    {
+        height:100%!important; width:auto; height:auto; 
     }
 
 }

@@ -843,5 +843,12 @@
 	{
 		display:none!important;
 	}
-
+	#quotes-img-2
+	{
+		display:none;
+	}
+	#quotes div
+	{
+		text-align:left;
+	}
 /*}

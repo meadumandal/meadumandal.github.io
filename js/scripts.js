@@ -3,7 +3,7 @@ $(document).ready(function()
 	// var anchors = ['homepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'skillspage','careerpage', 'freelancingpage', 'contactmepage'];
 	$('#fullpage').fullpage({
 					// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-					anchors: ['homepage', 'aboutmepage', 'schoolpage', 'learningpage', 'moonpage	', 'skillspage','careerpage','goodwordpage','freelancingpage', 'contactmepage'],
+					anchors: ['homepage', 'aboutmepage', 'quotespage', 'schoolpage', 'learningpage', 'moonpage	', 'skillspage','careerpage','goodwordpage','freelancingpage', 'contactmepage'],
 					menu: '#menu',
 					onLeave: function(index, nextIndex, direction){
 						var leavingSection = $(this);
@@ -31,7 +31,7 @@ $(document).ready(function()
 					verticalCentered:false,
 					navigation: false,
 					navigationPosition: 'right',
-					navigationTooltips: ['Home', 'About Me','About Me','About Me','About Me', 'Skills', 'Career Background', 'Freelancing', 'Contact Me'],
+					navigationTooltips: ['Home', 'About Me','About Me','About Me','About Me', 'About Me', 'Skills', 'Career Background', 'Freelancing', 'Contact Me'],
 					continuousHorizontal: true
 				});
 
