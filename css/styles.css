@@ -224,35 +224,35 @@
 		-webkit-animation:flyfromright 0.2s linear forwards;
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
-	    animation-delay:0.4s;
+	    /*animation-delay:0.4s;*/
 	}
 	#programming.start
 	{
 		-webkit-animation:flyfromright 0.2s linear forwards;
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
-	    animation-delay:0.6s;
+	    animation-delay:0.2s;
 	}
 	#smart.start
 	{
 		-webkit-animation:flyfromright 0.2s linear forwards;
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
-	    animation-delay:0.2s;
+	    /*animation-delay:0.2s;*/
 	}
 	#teamplayer.start
 	{
 		-webkit-animation:flyfromright 0.2s linear forwards;
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
-	    animation-delay:0.4s;
+	    animation-delay:0.2s;
 	}
 	#tup.start
 	{
 		-webkit-animation:flyfromright 0.2s linear forwards;
 	    -moz-animation:flyfromright 0.2s linear forwards;
 	    animation:flyfromright 0.2s linear forwards;
-	    animation-delay:0.6s;
+	    animation-delay:0.4s;
 	}
 	
 	#downloadresume.start
@@ -335,7 +335,7 @@
 		-webkit-animation:spin 0.2s linear forwards;
 	    -moz-animation:spin 0.2s linear forwards;
 	    animation:spin 0.2s linear forwards;
-	    animation-delay:0.4s;
+	    /*animation-delay:0.4s;*/
 	}
 	img.schoolimg
 	{
@@ -392,6 +392,22 @@
 			-transfor:translateX(-100%);
 		}
 		to{
+			-webkit-transform:translateX(1px);
+			-moz-transform:translateX(1px);
+			-transfor:translateX(1px);
+		}
+	}
+	@keyframes abc
+	{
+		0%
+		{
+			-webkit-transform:translateX(-100%);
+			-moz-transform:translateX(-100%);
+			-transfor:translateX(-100%);
+		}
+		
+		100%
+		{
 			-webkit-transform:translateX(1px);
 			-moz-transform:translateX(1px);
 			-transfor:translateX(1px);
@@ -482,6 +498,10 @@
 			width:70%;
 		}
 	}
+	.skill-level
+	{
+		width:0%;
+	}
 	.skill-level.fifty.start
 	{
 			width: 0%;
@@ -562,27 +582,42 @@
 	   animation-fill-mode:forwards; /*when the spec is finished*/
 	}
 
-	#learner, #dreamer, #developer
+	#learner, #dreamer, #developer, h4.abc
 	{
 		-webkit-transform:translateX(-110%);
 		-moz-transform:translateX(-110%);
 		-transfor:translateX(-110%);
 	}
+	#success-a.start
+	{
+		animation: abc 0.5s linear forwards;
+		/*animation-delay:0.1s;*/
+	}
+	#success-b.start
+	{
+		animation: abc 0.5s linear forwards;
+		animation-delay:0.1s;
+	}
+	#success-c.start
+	{
+		animation: abc 0.5s linear forwards;
+		animation-delay:0.2s;
+	}
 	#learner.start
 	{
 		animation: headers 0.3s linear forwards;
-		animation-delay:0.5s;
+		animation-delay:0.1s;
 	}
 	#dreamer.start
 	{	
 		animation: headers 0.3s linear forwards;
-		animation-delay:0.7s;
+		animation-delay:0.2s;
 	}
 	#developer.start
 	{
 		
 		animation: headers 0.3s linear forwards;
-		animation-delay: 0.9s;
+		animation-delay: 0.3s;
 	}
 	#goodword-1.start
 	{
@@ -605,11 +640,11 @@
 	.fly.start
 	{
 		animation: fly 0.1s linear forwards;
-		animation-delay:0.5s;
+		/*animation-delay:0.1s;*/
 	}
 	#smartcareer
 	{
-		-webkit-transform: translateY(200%);	
+		-webkit-transform: translateX(-200%);	
 	}
 	#isuzucareer
 	{
@@ -619,12 +654,12 @@
 	#smartcareer.start
 	{
 		animation: bottomtop 0.2s linear forwards;
-		animation-delay:0.2s;
+		/*animation-delay:0.2s;*/
 	}
 	#isuzucareer.start
 	{
 		animation: rightleft 0.2s linear forwards;
-		animation-delay:0.3s;
+		animation-delay:0.2s;
 	}
 	div#moon
 	{
@@ -821,6 +856,11 @@
 	#goodword p.remarks
 	{
 		font-size:20px;
+		opacity:0;
+	}
+	p.remarks.start
+	{
+		animation: fade 0.2s linear forwards;
 	}
 	#goodword p.position
 	{
@@ -850,5 +890,9 @@
 	#quotes div
 	{
 		text-align:left;
+	}
+	#quotes
+	{
+		color:#1c1c1c;
 	}
 /*}

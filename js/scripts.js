@@ -1,6 +1,8 @@
 $(document).ready(function()
 {
 	// var anchors = ['homepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'aboutmepage', 'skillspage','careerpage', 'freelancingpage', 'contactmepage'];
+	var $animation_elements = $('.animatedelement');
+	var $window = $(window);
 	$('#fullpage').fullpage({
 					// sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 					anchors: ['homepage', 'aboutmepage', 'quotespage', 'schoolpage', 'learningpage', 'moonpage	', 'skillspage','careerpage','goodwordpage','freelancingpage', 'contactmepage'],
@@ -10,7 +12,8 @@ $(document).ready(function()
 			            //after leaving section 2
 
 			            // console.log( $('.fp-section').eq(nextIndex - 1 ).attr('data-anchor') );
-			            checkAnimation( $('.fp-section').eq(nextIndex - 1 ).attr('data-anchor') );
+			            // checkAnimation( $('.fp-section').eq(nextIndex - 1 ).attr('data-anchor') );
+			            animate();
 			            // if(index == 5 && direction =='down'){
 			            //     checkAnimation();
 			            // }
@@ -24,7 +27,8 @@ $(document).ready(function()
 					afterLoad: function(anchorLink, index)
 					{
 						 
-			            checkAnimation(anchorLink);
+			            // checkAnimation(anchorLink);
+			            animate();
 			            
 					},
 					scrollingSpeed: 500,
@@ -59,6 +63,27 @@ $(document).ready(function()
 	{
 		$("a.first img").addClass("firstnotselected");
 	});
+
+	function animate() {
+	  var window_height = $window.height();
+	  var window_top_position = $window.scrollTop();
+	  var window_bottom_position = (window_top_position + window_height);
+
+	  $.each($animation_elements, function() {
+	    var $element = $(this);
+	    var element_height = $element.outerHeight();
+	    var element_top_position = $element.offset().top;
+	    var element_bottom_position = (element_top_position + element_height);
+
+	    
+	    if ((element_bottom_position >= window_top_position) &&
+	      (element_top_position <= window_bottom_position)) {
+	      $element.addClass('start');
+	    } else {
+	      $element.removeClass('start');
+	    }
+	  });
+	}
 
 });
 
@@ -115,6 +140,7 @@ function isElementInViewport(elem) {
 
     return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
 }
+
 
 // Check if it's time to start the animation.
 function checkAnimation(anchorLink) {
@@ -189,6 +215,13 @@ function checkAnimation(anchorLink) {
 		if ($elem.hasClass('start')) return;
 		$elem.addClass('start');
 	}	
+	else if (anchorLink == 'quotespage')
+	{
+
+		var $elem = $('#quotes .abc');
+		if ($elem.hasClass('start')) return;
+		$elem.addClass('start');
+	}
 
 }
 function changeNav(nextIndex)
@@ -202,6 +235,6 @@ function changeNav(nextIndex)
 }
 
 // Capture scroll events
-// $(window).scroll(function(){
-//     checkAnimation();
-// });
+$(window).scroll(function(){
+    checkAnimation();
+});
