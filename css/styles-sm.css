@@ -140,6 +140,14 @@
     {
         height:100%!important; width:auto; height:auto; 
     }*/
-
+    #smartcareer
+    {
+        -webkit-transform: translateX(100%);   
+    }
+    #smartcareer.start
+    {
+        animation: rightleft 0.2s linear forwards;
+        /*animation-delay:0.2s;*/
+    }
 
 }

@@ -152,15 +152,20 @@
     {
         -webkit-transform: translateX(150%);    
     }
+    #smartcareer
+    {
+        -webkit-transform: translateX(100%);   
+    }
     #smartcareer.start
     {
-        animation: rightleft 0.5s linear forwards;
-        animation-delay:0.3s;
+        animation: rightleft 0.2s linear forwards;
+        /*animation-delay:0.2s;*/
     }
+    
     #isuzucareer.start
     {
-        animation: bottomtop 0.5s linear forwards;
-        animation-delay:1.3s;
+        animation: bottomtop 0.2s linear forwards;
+        animation-delay:0.2s;
     }
 
       #contactme>.col-xs-12
