@@ -241,7 +241,9 @@
     /*    width:70px;
         height:auto;
         border-radius:50%;*/
-        display:none;
+        /*display:none;*/
+        width:60px;
+
     }
     #quotes-img-1
     {
@@ -255,5 +257,8 @@
     {
         height:100%!important; width:auto; height:auto; 
     }
-
+    #idpic img
+    {
+        height:150px;
+    }
 }
