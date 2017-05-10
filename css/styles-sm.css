@@ -124,34 +124,36 @@
 	{
 	    margin-top:25px;
 	}
-   /* #quotes-img-1
+    div.overlay
     {
-        display:none;
+        position:absolute;
+        float:left;
+        width:100%;
+        min-height:50vh;
+        background:rgba(0,0,0,0.7);
+        z-index:3000;
+        text-align:center;
+        padding-top:
     }
-    #quotes-img-2
+    #bgvid
     {
-        display:block;
-    }*/
-  /*   #quotes div
-    {
-        height:50%;
+        height:50vh!important;
+        width:auto;
     }
-    #quotes-img-2 img
+    #bgvid.center { margin: 0 auto; }
+    div.overlay
     {
-        height:100%!important; width:auto; height:auto; 
-    }*/
-    #smartcareer
-    {
-        -webkit-transform: translateX(100%);   
+        padding-top:30%;
     }
-    #smartcareer.start
+    .section
+    {height:50vh!important;}    
+    h1
     {
-        animation: rightleft 0.2s linear forwards;
-        /*animation-delay:0.2s;*/
-    }
-    #idpic img
-    {
-        height:150px;
-    }
+        font-size:4.5vw!important;
 
+    }
+    h2
+    {
+        font-size:2vw!important;
+    }
 }
