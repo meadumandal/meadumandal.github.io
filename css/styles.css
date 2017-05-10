@@ -790,7 +790,7 @@ body { margin: 20px; }
 
 .marquee {
   height: 70%;
-  width: 265%;
+  width: 260%;
 
   overflow: hidden;
   position: relative;
@@ -814,5 +814,5 @@ body { margin: 20px; }
 
 @keyframes marquee {
   0% { left: 0; }
-  100% { left: -200%; }
+  100% { left: -150%; }
 }
