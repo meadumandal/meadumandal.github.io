@@ -124,36 +124,34 @@
 	{
 	    margin-top:25px;
 	}
-    div.overlay
+   /* #quotes-img-1
     {
-        position:absolute;
-        float:left;
-        width:100%;
-        min-height:50vh;
-        background:rgba(0,0,0,0.7);
-        z-index:3000;
-        text-align:center;
-        padding-top:
+        display:none;
     }
-    #bgvid
+    #quotes-img-2
     {
-        height:50vh!important;
-        width:auto;
+        display:block;
+    }*/
+  /*   #quotes div
+    {
+        height:50%;
     }
-    #bgvid.center { margin: 0 auto; }
-    div.overlay
+    #quotes-img-2 img
     {
-        padding-top:30%;
+        height:100%!important; width:auto; height:auto; 
+    }*/
+    #smartcareer
+    {
+        -webkit-transform: translateX(100%);   
     }
-    .section
-    {height:50vh!important;}    
-    h1
+    #smartcareer.start
     {
-        font-size:4.5vw!important;
+        animation: rightleft 0.2s linear forwards;
+        /*animation-delay:0.2s;*/
+    }
+    #idpic img
+    {
+        height:150px;
+    }
 
-    }
-    h2
-    {
-        font-size:2vw!important;
-    }
 }
