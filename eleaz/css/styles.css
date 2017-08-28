@@ -1,59 +1,10 @@
 /*@media screen and (min-width: 992px) {*/
-    #portfolio
+    #birthdaymessage
 	{
 		font-family:'Lato', sans-serif;
 		height:100%;
 		color:black!important;
 	}
-	
-	.section
-	{
-		height: 100vh!important;
-		/*padding-top:80px!important;*/
-	}
-	
-	.banner
-	{
-		height:100vh;
-		color:#ececec;
-		font-family:'Lato', sans-serif;
-		color:#ffffff;	
-		overflow:hidden;
-		
-		
-	}
-	.bannerdiv
-	{
-		height:100%;z-index:2000;text-align:right
-	}
-	
-	.banner h1
-	{
-		font-weight:700;
-		font-size:5.5vw;
-	}
-
-	.banner h2
-	{
-		font-size:4.5vw;
-	}
-	.banner h3
-	{
-		font-size:3.5vw;
-	}
-	.banner h4
-	{
-		font-size:2.5vw;
-	}
-	.banner h5
-	{
-		font-size:2.0vw;
-	}
-	.banner h6
-	{
-		font-size:1.5vw;
-	}
-	
 
 	#backgroundvid
 	{
@@ -67,14 +18,12 @@
 	{
 		width:100%;
 		left: 50%;
-    position: absolute;
-    
-    transform: translate(-50%, 0%);
+    	position: absolute;
+    	transform: translate(-50%, 0%);
 	}
 	#bgvid.center { margin: 0 auto; }
 	div.overlay
 	{
-		position:absolute;
 		float:left;
     	width:100%;
     	min-height:100%;
