@@ -1,0 +1,818 @@
+/*@media screen and (min-width: 992px) {*/
+    #portfolio
+	{
+		font-family:'Lato', sans-serif;
+		height:100%;
+		color:black!important;
+	}
+	#fullpage
+	{
+
+	}
+	.section
+	{
+		height: 100vh!important;
+		/*padding-top:80px!important;*/
+	}
+	#menu > .active >a {
+		background-color:rgba(0,0,0,0);
+		border-width:0px 0px 2px 0px;
+		border-color: #ececec;
+		border-style:solid;
+		
+	}
+	.navbar.navbar-default
+	{
+		/*background-color:#2c3e50!important;*/
+		background-color: rgba(0,0,0,0);
+		border:0px!important;
+		border-radius:0!important;
+		margin:0!important;
+		min-height:80px!important;
+		font-size:1.2em;
+	}
+	.navbar .navbar-nav {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+	}
+
+	.navbar .navbar-collapse {
+	  text-align: center;
+	}
+	.navbar-header img
+	{
+		height:60px
+	}
+	.navbar.navbar-default .container-fluid
+	{
+		min-height:80px!important;
+
+	}
+	.navbar ul, .navbar ul li, .navbar ul li a
+	{
+		min-height:80px;
+
+	}
+	.navbar ul li a
+	{
+		color:#ececec!important;
+		
+		padding-top:25px;
+
+	}
+	.navbar-brand
+	{
+		color:#ececec!important;
+	}
+	/*.banner img
+	{
+		opacity:0.3;
+		position: absolute;
+	    top: -9999px;
+	    bottom: -9999px;
+	    left: -9999px;
+	    right: -9999px;
+	    margin:auto;
+	}*/
+	html
+	{
+		height:100%;	
+	}
+
+	#home.banner
+	{
+		background:url("../img/mead.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	#coffee.banner
+	{
+		background:url("../img/coffee.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat:no-repeat;
+		background-position:center;
+		box-shadow:1px 1px #1c1c1c;
+	}
+	.banner
+	{
+		height:100vh;
+		color:#ececec;
+		font-family:'Lato', sans-serif;
+		color:#ffffff;	
+		overflow:hidden;
+		
+		
+	}
+	.bannerdiv
+	{
+		height:100%;z-index:2000;text-align:right
+	}
+	/*.banner
+	{
+		background-color:#000000;
+		font-family:'Lato', sans-serif;
+		color:#ffffff;	
+		height:100vh;
+		overflow:hidden;
+		position:relative;
+		background-repeat:no-repeat;
+	}
+	*/
+
+	#school.banner
+	{
+		background-color:#1c1c1c;
+		color:#ececec;
+		/*background:url("../img/stairs.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;*/
+	}
+	#school.banner img
+	{
+		width:100%;
+		margin-top:10%;
+		/*filter:grayscale(100%);
+		-webkit-filter:grayscale(100%);
+		-o-filter:grayscale(100%);
+		-moz-filter:grayscale(100%);*/
+		border-radius:50%;
+	}
+	.social:hover img
+	{
+	}
+	.banner h1
+	{
+		font-weight:700;
+		font-size:5.5vw;
+	}
+
+	.banner h2
+	{
+		font-size:4.5vw;
+	}
+	.banner h3
+	{
+		font-size:3.5vw;
+	}
+	.banner h4
+	{
+		font-size:2.5vw;
+	}
+	.banner h5
+	{
+		font-size:2.0vw;
+	}
+	.banner h6
+	{
+		font-size:1.5vw;
+	}
+	div.dim
+	{
+		height:100%;
+		width:100%;
+		background-color:#000000;
+		opacity:0.8;
+	}
+	div.skills
+	{
+		font-size:1.5vw;
+		font-weight:700;
+	}
+	div.skills>.row
+	{
+		margin-bottom:20px;
+	}
+	div.skill-level
+	{
+		background-color:#ececec;
+		height:25px;
+		border-radius:5px;
+		box-shadow:3px 3px #000000;
+	}
+	#freelancing.banner
+	{
+		background-color:#ececec;
+
+	}
+	#smart, #teamplayer, #tup, #downloadresume, #learningispassion, #programming
+	{
+		-webkit-transform:translateX(300%);
+		-transform:translateX(300%);
+		-moz-transform:translateX(300%);
+	}
+	#learningispassion.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.4s;
+	}
+	#programming.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.6s;
+	}
+	#smart.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.2s;
+	}
+	#teamplayer.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.4s;
+	}
+	#tup.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.6s;
+	}
+	
+	#downloadresume.start
+	{
+		-webkit-animation:flyfromright 0.2s linear forwards;
+	    -moz-animation:flyfromright 0.2s linear forwards;
+	    animation:flyfromright 0.2s linear forwards;
+	    animation-delay:0.8s;
+	}
+	@keyframes flyfromright {
+		from{
+			-webkit-transform:translateX(300%);
+			-moz-transform:translateX(300%);
+			-transfor:translateX(300%);
+		}
+		to{
+			-webkit-transform:translateX(1px);
+			-moz-transform:translateX(1px);
+			-transfor:translateX(1px);
+		}
+		
+	}
+	#encapsulate
+	{
+		-webkit-transform: translateXrotate(0) scale(2.0) translateX(-100%);
+		-moz-transform: rotate(0) scale(2.0) translateX(-100%);
+		-transform: rotate(0) scale(2.0) translateX(-100%);
+		opacity:0;
+		
+	}
+	
+	#encapsulate.start
+	{
+		-webkit-animation:spin 0.2s linear forwards;
+	    -moz-animation:spin 0.2s linear forwards;
+	    animation:spin 0.2s linear forwards;
+	    animation-delay:0.4s;
+	}
+	img.schoolimg
+	{
+		transition:opacity 1s ease-in-out;
+		-o-transition:opacity 1s ease-in-out;
+		-webkit-transition:opacity 1s ease-in-out;
+		-moz-transition:opacity 1s ease-in-out;	
+	}
+	@keyframes example {
+	    from{background-position:0 0;}
+	    to {background-position:100% 0;}
+	}
+	@-moz-keyframes spin {
+		
+		100% {
+			-moz-transform: rotate(360deg) scale(1.0) translateX(1px);
+			opacity:1;
+			
+		}
+	}
+	@-webkit-keyframes spin {
+		
+		100%
+		{ 
+			-webkit-transform: rotate(360deg) scale(1.0) translateX(1px);
+			opacity:1;
+		}
+		
+	}
+	@keyframes spin {
+		
+		100% 
+		{ 
+			-webkit-transform: rotate(360deg) scale(1.0) translateX(1px);
+			transform:rotate(360deg) scale(1.0);
+			opacity:1;
+		}
+		
+	}
+	@keyframes headers
+	{
+		from{
+			-webkit-transform:translateX(-100%);
+			-moz-transform:translateX(-100%);
+			-transfor:translateX(-100%);
+		}
+		to{
+			-webkit-transform:translateX(1px);
+			-moz-transform:translateX(1px);
+			-transfor:translateX(1px);
+		}
+	}
+	@keyframes fly
+	{
+		 0%   { -webkit-transform: translateX(-100%); }
+	 100% { -webkit-transform: translateX(0%); }
+	}
+	@keyframes bottomtop
+	{
+		 0%   { -webkit-transform: translateY(200%); }
+	 100% { -webkit-transform: translateX(0%); }
+	}
+	@keyframes rightleft
+	{
+		 0%   { -webkit-transform: translateX(100%); }
+	 100% { -webkit-transform: translateX(0%); }
+	}
+	@keyframes fifty
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:50%;
+		}
+	}
+	@keyframes fiftyfive
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:55%;
+		}
+	}
+	@keyframes fortyfive
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:45%;
+		}
+	}
+	@keyframes forty
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:40%;
+		}
+	}
+	@keyframes twentyfive
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:25%;
+		}
+	}
+	@keyframes twenty
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:20%;
+		}
+	}
+	@keyframes seventy
+	{
+		from 
+		{
+			width:0%;
+		}
+		to{
+			width:70%;
+		}
+	}
+	.skill-level.fifty.start
+	{
+			width: 0%;
+		
+		-webkit-animation: fifty 1s ease-out forwards;
+		   -moz-animation: fifty 1s ease-out forwards;
+		    -ms-animation: fifty 1s ease-out forwards;
+		     -o-animation: fifty 1s ease-out forwards;
+		        animation: fifty 1s ease-out forwards;
+	}
+	.skill-level.fortyfive.start
+	{
+			width: 0%;
+		
+		-webkit-animation: fortyfive 1s ease-out forwards;
+		   -moz-animation: fortyfive 1s ease-out forwards;
+		    -ms-animation: fortyfive 1s ease-out forwards;
+		     -o-animation: fortyfive 1s ease-out forwards;
+		        animation: fortyfive 1s ease-out forwards;
+	}
+	.skill-level.forty.start
+	{
+			width: 0%;
+		
+		-webkit-animation: forty 1s ease-out forwards;
+		   -moz-animation: forty 1s ease-out forwards;
+		    -ms-animation: forty 1s ease-out forwards;
+		     -o-animation: forty 1s ease-out forwards;
+		        animation: forty 1s ease-out forwards;
+	}
+	.skill-level.twenty.start
+	{
+			width: 0%;
+		
+		-webkit-animation: twenty 1s ease-out forwards;
+		   -moz-animation: twenty 1s ease-out forwards;
+		    -ms-animation: twenty 1s ease-out forwards;
+		     -o-animation: twenty 1s ease-out forwards;
+		        animation: twenty 1s ease-out forwards;
+	}
+	.skill-level.twentyfive.start
+	{
+			width: 0%;
+		
+		-webkit-animation: twentyfive 1s ease-out forwards;
+		   -moz-animation: twentyfive 1s ease-out forwards;
+		    -ms-animation: twentyfive 1s ease-out forwards;
+		     -o-animation: twentyfive 1s ease-out forwards;
+		        animation: twentyfive 1s ease-out forwards;
+	}
+	.skill-level.seventy.start
+	{
+			width: 0%;
+		
+		-webkit-animation: seventy 1s ease-out forwards;
+		   -moz-animation: seventy 1s ease-out forwards;
+		    -ms-animation: seventy 1s ease-out forwards;
+		     -o-animation: seventy 1s ease-out forwards;
+		        animation: seventy 1s ease-out forwards;
+	}
+	.skill-level.fiftyfive.start
+	{
+			width: 0%;
+		
+		-webkit-animation: fiftyfive 1s ease-out forwards;
+		   -moz-animation: fiftyfive 1s ease-out forwards;
+		    -ms-animation: fiftyfive 1s ease-out forwards;
+		     -o-animation: fiftyfive 1s ease-out forwards;
+		        animation: fiftyfive 1s ease-out forwards;
+	}
+
+	#home h2, #home h1
+	{
+		-webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
+	   -moz-animation-fill-mode:forwards; /*FF 5+*/
+	   -o-animation-fill-mode:forwards; /*Not implemented yet*/
+	   -ms-animation-fill-mode:forwards; /*IE 10+*/
+	   animation-fill-mode:forwards; /*when the spec is finished*/
+	}
+
+	#learner, #dreamer, #developer
+	{
+		-webkit-transform:translateX(-110%);
+		-moz-transform:translateX(-110%);
+		-transfor:translateX(-110%);
+	}
+	#learner.start
+	{
+		animation: headers 0.3s linear forwards;
+		animation-delay:0.5s;
+	}
+	#dreamer.start
+	{	
+		animation: headers 0.3s linear forwards;
+		animation-delay:0.7s;
+	}
+	#developer.start
+	{
+		
+		animation: headers 0.3s linear forwards;
+		animation-delay: 0.9s;
+	}
+	.fly
+	{
+		-webkit-transform: translateX(-110%);
+	}
+	.fly.start
+	{
+		animation: fly 0.1s linear forwards;
+		animation-delay:0.5s;
+	}
+	#smartcareer
+	{
+		-webkit-transform: translateY(200%);	
+	}
+	#isuzucareer
+	{
+		-webkit-transform: translateX(150%);	
+	}
+
+	#smartcareer.start
+	{
+		animation: bottomtop 0.2s linear forwards;
+		animation-delay:0.2s;
+	}
+	#isuzucareer.start
+	{
+		animation: rightleft 0.2s linear forwards;
+		animation-delay:0.3s;
+	}
+	div#moonj
+	{
+	/*	transition:background-position 0.5s linear infinite;
+		-o-transition:background-position 0.5s linear infinite
+		-webkit-transition:background-position 0.5s linear infinite
+		-moz-transition:background-position 0.5s linear infinite*/
+		animation:example 15s linear infinite;
+		
+	}
+
+	div.buttons div:first-child
+	{
+
+	}
+	a.footer-btn, select.footer-btn
+	{
+		/*min-height:75px;*/
+		height:auto!important;
+		width:100%!important;
+		font-family:'Lato', sans-serif;
+		font-weight:700;
+		text-align:left!important;
+	}
+	select.footer-btn
+	{
+		min-height:75px;
+	}
+	#work-together .footer-btn 
+	{
+		color:#1c1c1c;
+		background-color:#ececec;
+	}
+	.buttons a, .buttons select{
+		margin-top: calc(100% - 130px)
+	}
+	#help-you .footer-btn 
+	{
+		color:#ececec;
+		background-color:#1c1c1c;
+	}
+	a.footer-btn img
+	{
+		margin-left:0!important;
+	}
+	div.slideshow
+	{
+		/*text-align:center;*/
+	}
+	a.photoslide:not(.selected) img
+	{
+		width:10%;
+		filter:grayscale(100%);
+		-webkit-filter:grayscale(100%);
+		-o-filter:grayscale(100%);
+		-moz-filter:grayscale(100%);
+	}
+	a.photoslide.selected img
+	{
+		width:40%;
+		box-shadow:5px 5px 5px #1c1c1c;
+		margin-left:2%;
+		margin-right:2%;
+	}	
+	a.photoslide.selected:first-child img
+	{
+		margin-left:30%;
+	}
+	a.photoslide:not(.selected):first-child img
+	{
+		margin-left:18%;
+	}
+	.firstnotselected
+	{
+		margin-left:8%!important;
+	}
+	/*a.slide:not(.selected):nth-child(2) img
+	{
+		margin-left:20%;
+	}*/
+	/*a.slide.selected img
+	{
+		width:30%;
+	}
+	a.slide.selected:first-child img
+	{
+		margin-left:35%;
+	}
+	a.slide.selected:nth-child(2) img
+	{
+		margin-left:20%;
+	}
+	a.slide.selected:nth-child(3) img
+	{
+		margin-left:5%;
+	}
+	*/
+	a.photoslide img
+	{
+		-webkit-transition:all 0.3s;
+		-o-transition:all 0.3s;
+		-moz-transition:all 0.3s;
+		transition:all 0.3s;
+	}
+
+	#msgModal .modal-content
+	{
+		border-radius:0px!important;
+		background-color:#ececec;
+	}
+	#msgModal .modal-header
+	{
+		border-bottom:0!important;
+	}
+	#msgModal .modal-title
+	{
+		text-align:center;
+	}
+	#fp-nav ul li a span
+	{
+		background-color:#ececec!important;
+	}
+	.controlArrow.prev {
+		left: 50px;
+		background-color:#000000;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+	div.tablecell
+	{
+		display:table-cell;
+		vertical-align:middle
+	}
+
+	div.table
+	{
+		position:absolute;
+		height:100%;
+		display:table;
+		padding-right:30px;
+	}
+	#moon div
+	{
+		text-align:center;height:100%
+	}
+	#skills p
+	{
+		font-size:1.5vw;margin:0!important
+	}
+	#learning div
+	{
+		padding:0!important;
+		
+		height:100%;
+		background-size:cover;
+		background-position:center;
+		text-align:center;
+	}
+	#work>div
+	{
+		height:calc(100% - 80px);padding:0!important;border:20px solid #1c1c1c;
+
+	}
+	.fp-controlArrow.fp-prev
+	{
+		left:50px!important;
+	}
+	#contactme>.col-md-6
+	{
+		height:100%;
+	}
+	#freelancing img
+	{
+		width:100%;
+	}
+	#skills,#freelancing,#contactme>div.col-md-6
+	{
+		padding-top:80px;
+	}
+	#school div:first-child, #work
+	{
+		margin-top:80px;
+	}
+	.fp-controlArrow.fp-prev{
+		border-color:transparent rgba(0,0,0,0.5) transparent transparent!important;
+	}
+	.fp-controlArrow.fp-next{
+		border-color:transparent transparent transparent rgba(0,0,0,0.5)!important;	
+	}
+	
+
+	#backgroundvid
+	{
+		width:100%;
+		position:absolute;
+		height:100%;
+		overflow:hidden;
+	}
+
+	#bgvid
+	{
+		width:100%;
+		left: 50%;
+    position: absolute;
+    
+    transform: translate(-50%, 0%);
+	}
+	#bgvid.center { margin: 0 auto; }
+	div.overlay
+	{
+		position:absolute;
+		float:left;
+    	width:100%;
+    	min-height:100%;
+    	background:rgba(0,0,0,0.7);
+    	z-index:3000;
+    	text-align:center;
+    	padding-top:
+	}
+	#hbd
+	{
+		width:100%;
+		height:auto;
+	}
+
+	#messagepage
+	{
+		/*background-image:url('../img/greenbg.jpg');*/
+		background-color:#ffffff;
+		
+	}
+	#lastpage
+	{
+		background-image:url('../img/greenbg.jpg');
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
+
+
+body { margin: 20px; }
+
+.marquee {
+  height: 70%;
+  width: 265%;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 265%;
+  height: 100%;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 20s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -200%; }
+}
